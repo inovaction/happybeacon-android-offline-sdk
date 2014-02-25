@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HappyBeacon
 Android Offline Library
 
@@ -66,3 +67,9 @@ Answer : When the application is in background you can set the delay using backg
 Question 2 : Is there a way to start automatically the bluetooth option ?
 
 Answer : You can start the bluetooth service by using autoEnableBluetooth static variable of HB.
+=======
+happybeacon-android-offline-sdk
+===============================
+
+HappyBeacon Android Offline Library (iBeacon, Flybell)
+>>>>>>> 4693d50e7a38fc2f03e81f7814a3d664afde8890
