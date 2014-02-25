@@ -1,0 +1,25 @@
+{
+	"uuid":"E2C56DB5-DFFB-48D2-B060-D0F5A71096E0",
+	"identifier":"com.happybeacon",
+	"beacons":
+	[
+		{
+			"major":1,
+			"minor":3,
+			"data":
+			{
+				"message_enter":"Beacon 3 welcome !",
+				"message_exit":"Beacon 3 bye bye !"
+			}
+		},
+		{
+			"major":1,
+			"minor":4,
+			"data":
+			{
+				"message_enter":"Beacon 4 welcome !",
+				"message_exit":"Beacon 4 bye bye !"
+			}
+		}	
+	]
+}
