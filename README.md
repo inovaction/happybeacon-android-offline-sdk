@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 HappyBeacon
 Android Offline Library
 
@@ -13,7 +12,7 @@ Eclipse integration
 
 4) Call the methods for foreground & background use in your main activity
 
-```android
+```java
 @Override
 protected void onResume() {
     super.onResume();
@@ -29,14 +28,14 @@ protected void onPause() {
 
 5) Add required Android permissions
 
-```android
+```java
 <uses-permission android:name="android.permission.BLUETOOTH"/>
 <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
 ```
 
 6) Declare the HBService in your AndroidManifest file
 
-```android
+```java
 <service android:name="com.happybeacon.HBService" android:exported="false" >
     <intent-filter>
         <action android:name="com.happybeacon.HBService" />
@@ -67,9 +66,3 @@ Answer : When the application is in background you can set the delay using backg
 Question 2 : Is there a way to start automatically the bluetooth option ?
 
 Answer : You can start the bluetooth service by using autoEnableBluetooth static variable of HB.
-=======
-happybeacon-android-offline-sdk
-===============================
-
-HappyBeacon Android Offline Library (iBeacon, Flybell)
->>>>>>> 4693d50e7a38fc2f03e81f7814a3d664afde8890
